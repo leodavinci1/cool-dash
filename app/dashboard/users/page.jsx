@@ -1,4 +1,4 @@
-import Search from "@/ui/users/search/search"
+import Search from "@/ui/dashboard/users/search/search"
 import Pagination from "@/ui/dashboard/pagination/pagination"
 import Image from "next/image"
 import Link from "next/link"
@@ -36,7 +36,7 @@ const UsersPage = () => {
             <td className="p-[10px]">active</td>
             <td className="p-[10px]">
               <div className="flex gap-[10px]">
-                <Link href="/">
+                <Link href="/dashboard/users/test">
                   <button className="text-[12px] border-none py-[5px] px-[10px] cursor-pointer rounded-[5px] text-t bg-teal-500">View</button>
                 </Link>
                 <button className="text-[12px] border-none py-[5px] px-[10px] cursor-pointer rounded-[5px] text-t bg-red-800">Delete</button>
